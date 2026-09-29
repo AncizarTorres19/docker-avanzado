@@ -24,8 +24,8 @@ jobs:
           docker exec testcontainer /bin/sh -c "
             echo 'Ejecutando pruebas...';
             cd home
-            mkdir amin 
-            cd amin
+            mkdir ancizar 
+            cd ancizar
             printf 'Este es el contenido del archivo.\nPuede incluir varias líneas.\n' > ejemplo.txt
             ls -a || exit 1
           "
